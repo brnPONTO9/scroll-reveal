@@ -1,0 +1,32 @@
+.revealE {
+  opacity: 0;
+  transform: translateX(-17px); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.revealE.visible {
+  opacity: 1;
+  transform: translateX(0); 
+}
+
+.revealB {
+  opacity: 0;
+  transform: translateY(17px); 
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.revealB.visible {
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.revealD {
+  opacity: 0;
+  transform: translateX(17px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.revealD.visible {
+  opacity: 1;
+  transform: translateX(0); 
+}
